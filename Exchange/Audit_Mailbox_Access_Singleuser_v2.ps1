@@ -1,3 +1,12 @@
+#=======================================================================================#
+# Script: Audit Users Mailbox Access
+# Version: 0.1
+# Author: Robert Clarkson
+# Email: robert.clarkson@neweratech.com
+# Description: Lists mailboxes the user has access to, Full and Send As
+# Errors are supressed, you can remove the supression by removing "-ErrorAction SilentlyContinue"
+#=======================================================================================#
+
 # Import Exchange Online PowerShell Module
 Import-Module ExchangeOnlineManagement
 
